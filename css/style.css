@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     font-family: arial;
+    background-image: url(images/Penguins.jpg);
   }
   header,
   footer {
@@ -31,10 +32,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border-bottom: 1px dotted #f9d42a;
+    border-bottom: 1px dotted pink;
   }
   header nav ul li:first-child {
-    border-top: 1px dotted #f9d42a;
+    border-top: 1px dotted pink;
   }
   header nav ul li a {
     display: block;
@@ -47,7 +48,7 @@
     transition: background-color 1s;
   }
   header nav ul li i {
-    color: #f9d42a;
+    color: pink;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -73,22 +74,34 @@
     font-size: 250px;
   }
   main section:nth-child(even) article:nth-child(1) {
-    background-color: #e3d47f;
+    background-color: pink;
   }
   main section:nth-child(even) article:nth-child(2) {
-    background-color: #d47fe3;
+    background-color: #c0cbff;
   }
   main section:nth-child(even) article:nth-child(3) {
-    background-color: #7fe3d4;
+    background-color: #cbffc0;
+  }
+  main section:nth-child(even) article:nth-child(4) {
+    background-color: #c0cbff;
+  }
+  main section:nth-child(even) article:nth-child(5) {
+    background-color: pink;
   }
   main section:nth-child(odd) article:nth-child(1) {
-    background-color: #dbaab1;
+    background-color: #e0c6e5;
   }
   main section:nth-child(odd) article:nth-child(2) {
-    background-color: #b1dca9;
+    background-color: #e5e0c6;
   }
   main section:nth-child(odd) article:nth-child(3) {
-    background-color: #b1b1b1;
+    background-color: #e0e0e0;
+  }
+  main section:nth-child(odd) article:nth-child(4) {
+    background-color: #e5e0c6;
+  }
+  main section:nth-child(odd) article:nth-child(5) {
+    background-color: #e0c6e5;
   }
   footer {
     height: 70px;
@@ -101,11 +114,11 @@
     width: 30px;
   }
   footer div i {
-    color: #f9d42a;
+    color: pink;
     transition: color 1s;
   }
   footer div i:hover {
-    color: #7f8ee3;
+    color: #c0fff4;
   }
   .global {
     width: 100%;
