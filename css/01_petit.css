@@ -105,3 +105,8 @@ footer div i {
 footer div i:hover {
   color: #7f8ee3;
 }
+.global {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
