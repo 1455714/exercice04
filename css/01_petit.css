@@ -35,7 +35,7 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 5px;
-  width: 1000px;
+  width: 800px;
   margin: auto;
   /* fin nav*/
 }
@@ -212,7 +212,7 @@ main section article {
 }
 footer {
   height: 70px;
-  width: 1000px;
+  width: 800px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,4 +247,18 @@ footer div i:hover {
 }
 .global {
   background-color: black;
+}
+@media all and (max-width: 800px) {
+  article {
+    width: 100% !important;
+    font-size: 150px !important;
+  }
+  header {
+    width: initial;
+  }
+}
+@media all and (max-width: 499px) {
+  article {
+    font-size: 250px !important;
+  }
 }
